@@ -12,6 +12,5 @@ namespace Inventory.WebApi
 
         public string Summary { get; set; }
 
-        public string TempVariable { get; set; }
     }
 }
