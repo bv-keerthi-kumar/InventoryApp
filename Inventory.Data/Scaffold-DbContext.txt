@@ -1,0 +1,7 @@
+﻿
+// I'm following, Entity Framework Core Database First Approach, below is the Scaffold-DbContext command to create
+// the model in the Inventory.Data library
+
+Scaffold-DbContext  "Server=L510546\SQLEXPRESS;Initial Catalog=InventoryDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext  "Server=L510546\SQLEXPRESS;Initial Catalog=InventoryDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
